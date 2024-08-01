@@ -48,8 +48,7 @@
     </div>
   </div>
 
-  <audio id="birthday-audio" src="summertime.mp3" type="audio/mp4"></audio>
-
+  </script>
   <script src="cake.js"></script>
   <script src="volume-meter.js"></script>
   <script src="audioDetectionConfig.js"></script>
@@ -61,19 +60,6 @@
   <canvas id="c"></canvas>
   <script src="script.js"></script>
 
-  <script>
-    function isMobileDevice() {
-      return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
-    }
-
-    window.onload = function() {
-      if (!isMobileDevice()) {
-        alert("Vui lòng mở trang web này trên điện thoại.");
-      } else {
-        document.getElementById('birthday-audio').play();
-      }
-    };
-  </script>
 </body>
 
 </html>
