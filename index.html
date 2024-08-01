@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Happy Birthday Diem Suong</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="prefixfree.min.js"></script>
-  </head>
-  <body>
-    <canvas id="c"></canvas>
-    <script src="script.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Happy Birthday Diem Suong</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="prefixfree.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Shizuru&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="text-center">
+      <p class="cake-h1">Happy Birthday!</h1>
+      <p class="cake-h1">Thổi Nến Đi Cậu Êii🎂</p>
+    </div>
+    <br>
+    <button style="opacity: 0" id="start">START (required on Chrome)</button>
+    <button style="display: none" id="startconsoledebug">enable console logs</button>
+    <button style="display: none" id="stopconsoledebug">disable console logs</button>
+    <br>
+    <br>
+    <div id="cake-holder" style="opacity: 0">
+      <div class="cake">
+        <div class="plate"></div>
+        <div class="layer layer-bottom"></div>
+        <div class="layer layer-middle"></div>
+        <div class="layer layer-top"></div>
+        <div class="icing"></div>
+        <div class="drip drip1"></div>
+        <div class="drip drip2"></div>
+        <div class="drip drip3"></div>
+        <div class="candle">
+          <div class="flame"></div>
+        </div>
+      </div>
+      <div class="text-center">
+        <p class="cake-off cake-p">
+          Chúc mừng sinh nhật cậu nhá!!!
+          <br> Năm nay bạn Linh chúc trễ nhất nên nhỉ?
+          <br> Mà thôi, dù sao thì cũng chúc cậu Mau ăn chóng giàu :v
+          <br> Happy Birthday Cậu nhá!
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+  <script src="cake.js"></script>
+  <script src="volume-meter.js"></script>
+  <script src="audioDetectionConfig.js"></script>
+  <script src="audioDetection.js"></script>
+  <script src="audioStream.js"></script>
+
+  <script src="demoAudioRecorder.js"></script>
+  <script src="demoAudioDetectionListeners.js"></script>
+  <script src="demo.js"></script>
+
+  <canvas id="c"></canvas>
+  <script src="script.js"></script>
+</body>
+
 </html>
