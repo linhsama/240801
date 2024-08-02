@@ -250,9 +250,10 @@ p.cake-h1 {
 }
 
 .container {
-  height: calc(100vh - 13rem);
+  height: calc(100vh - 15rem);
   position: relative;
   z-index: 2;
   width: 100vw;
-  margin-top: 12rem;
+  margin-top: 13rem;
+  bottom: 2rem;
 }
