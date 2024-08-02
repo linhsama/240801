@@ -14,8 +14,6 @@ canvas {
 *,
 html,
 body {
-  margin: 0;
-  padding: 0;
   box-sizing: content-box;
   background-color: #111111;
 }
@@ -43,8 +41,8 @@ body {
   width: 200;
   height: 110px;
   position: absolute;
-  bottom: -10px;
-  left: -10px;
+  bottom: 0;
+  left: 0px;
   background-color: #ccc;
   border-radius: 50%;
   box-shadow: 0 2px 0 #b3b3b3, 0 4px 0 #b3b3b3, 0 5px 40px rgba(0, 0, 0, 0.5);
@@ -166,7 +164,7 @@ body {
   height: 35px;
   border-radius: 10px 10px 10px 10px / 25px 25px 10px 10px;
   top: -34px;
-  left: 50%;
+  left: 55%;
   margin-left: -7.5px;
   z-index: 10;
   box-shadow: 0 0 10px rgba(255, 165, 0, 0.5), 0 0 20px rgba(255, 165, 0, 0.5),
@@ -252,9 +250,9 @@ p.cake-h1 {
 }
 
 .container {
-  height: calc(100vh - 12rem);
+  height: calc(100vh - 13rem);
   position: relative;
   z-index: 2;
   width: 100vw;
-  margin-top: 11rem;
+  margin-top: 12rem;
 }
